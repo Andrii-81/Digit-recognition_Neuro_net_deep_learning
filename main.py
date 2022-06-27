@@ -1,10 +1,10 @@
 import matplotlib         # ВИДЕО № 14
 import numpy as np
 import matplotlib.pyplot as plt
-from tensorflow.keras.datasets import mnist         # библиотека базы выболок Mnist
+from tensorflow.keras.datasets import mnist         # библиотека базы выборок Mnist
 from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D
-#  %matplotlib inline ------ в обычном питоне не использовать - а только в ноутбуке юпител и другом
+#  %matplotlib inline ------ в обычном питоне не использовать - а только в ноутбуке юпитер и другом
 
 # загрузка выборок и обучающей и тестовой
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
