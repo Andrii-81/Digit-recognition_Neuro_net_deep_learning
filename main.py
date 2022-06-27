@@ -6,7 +6,6 @@ from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D
 #  %matplotlib inline ------ в обычном питоне не использовать - а только в ноутбуке юпител и другом
 
-# project
 # загрузка выборок и обучающей и тестовой
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
@@ -126,8 +125,6 @@ for i in range(5):
     print("Значение сети: " + str(p_false[i]))
     plt.imshow(x_false[i], cmap=plt.cm.binary)
     plt.show()
-
-
 
 
 
